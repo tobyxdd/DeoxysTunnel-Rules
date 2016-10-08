@@ -9,23 +9,59 @@ Default: Proxy
 
 # Force Proxy
 [Proxy]
-google.*
-*.google.*
-*.googleapis.*
-twitter.com
-*.twitter.com
-facebook.com
-*.facebook.com
+{Google}
+{Twitter}
+{Facebook}
 
 
 # Direct all .cn domains, sites that suitable for direct access, some known Chinese websites & China IPs
 [Direct]
 *.cn
+*.v2ex.*
+{Steam}
+{LAN}
+{China}
+
+# Google
+[Google]
+google.*
+*.google.*
+*.googleapis.*
+gstatic.*
+*.gstatic.*
+googleusercontent.*
+*.googleusercontent.*
+ggpht.*
+*.ggpht.*
+ytimg.*
+*.ytimg.*
+youtube.*
+*.youtube.*
+
+
+# Twitter
+[Twitter]
+twitter.com
+*.twitter.com
+*.twimg.com
+
+
+# Facebook
+[Facebook]
+facebook.*
+*.facebook.*
+fb.*
+*.fb.*
+
+
+# Steam domains
+[Steam]
 *.steampowered.com
 *.steamstatic.com
-*.v2ex.*
-{LAN} # A reference to the [LAN] section below
-{China} # A reference to the [China] section below
+steamcommunity.com
+*.steamcommunity.com
+steamcommunity-a.akamaihd.net
+*.steamusercontent.com
 
 
 # Local and LAN
