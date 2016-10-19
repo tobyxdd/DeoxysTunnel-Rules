@@ -18,9 +18,23 @@ Default: Proxy
 [Direct]
 *.cn
 *.v2ex.*
+{Baidu}
 {Steam}
 {LAN}
 {China}
+
+
+# Baidu
+[Baidu]
+baidu.com
+*.baidu.com
+bdstatic.com
+*.bdstatic.com
+bdimg.com
+*.bdimg.com
+baidupcs.com
+*.baidupcs.com
+
 
 # Google
 [Google]
