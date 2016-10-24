@@ -68,14 +68,20 @@ fb.*
 *.fb.*
 
 
-# Steam domains
+# Steam related domains
 [Steam]
 *.steampowered.com
 *.steamstatic.com
 steamcommunity.com
 *.steamcommunity.com
 steamcommunity-a.akamaihd.net
+steamstore-a.akamaihd.net
+steamcdn-a.akamaihd.net
 *.steamusercontent.com
+steamspy.com
+*.steamspy.com
+steamdb.info
+*.steamdb.info
 
 
 # Local and LAN
