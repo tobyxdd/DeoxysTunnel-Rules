@@ -2,7 +2,7 @@
 
 # Use proxy only for foreign sites, bypassing all domestic and local sites.
 # By Toby
-# Last Updated on 2016-10-24
+# Last Updated on 2016-10-28
 
 Default: Proxy
 
@@ -20,6 +20,7 @@ Default: Proxy
 *.v2ex.*
 {Baidu}
 {Steam}
+{Apple}
 {LAN}
 {China}
 
@@ -34,6 +35,18 @@ bdimg.com
 *.bdimg.com
 baidupcs.com
 *.baidupcs.com
+
+
+# Apple
+[Apple]
+icloud.com
+*.icloud.com
+apple.com
+apple.com.*
+*.apple.com
+*.apple.com.*
+cdn-apple.com
+*.cdn-apple.com
 
 
 # Google
@@ -1672,6 +1685,7 @@ steamdb.info
 103.77.88.0/21
 103.77.132.0/22
 103.77.148.0/22
+103.77.220.0/22
 103.192.0.0/19
 103.192.48.0/21
 103.192.56.0/22
