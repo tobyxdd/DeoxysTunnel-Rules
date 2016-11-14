@@ -2,7 +2,7 @@
 
 # Use proxy only for foreign sites, bypassing all domestic and local sites.
 # By Toby
-# Last Updated on 2016-11-07
+# Last Updated on 2016-11-14
 
 Default: Proxy
 
@@ -1689,6 +1689,13 @@ steamdb.info
 103.78.56.0/21
 103.78.64.0/21
 103.78.124.0/22
+103.78.172.0/22
+103.78.176.0/22
+103.78.196.0/22
+103.78.228.0/22
+103.79.24.0/21
+103.79.36.0/22
+103.79.40.0/21
 103.192.0.0/19
 103.192.48.0/21
 103.192.56.0/22
