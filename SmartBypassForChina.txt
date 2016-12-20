@@ -2,8 +2,7 @@
 
 # Use proxy only for foreign sites, bypassing all domestic and local sites.
 # By Toby
-# Last Updated on 2016-11-14
-
+# Last Updated on 2016-12-20
 Default: Proxy
 
 
